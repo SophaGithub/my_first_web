@@ -1,0 +1,52 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.center-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.gap{
+    gap: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.center a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    color: #7f8c8d;
+}
+.center a:hover{
+    color:black;
+}
+.profile{
+    width: 15%;
+    border-radius: 50%;
+}
+.heading{
+    color: #2c3e50;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.paragraph{
+    width: 70%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #7f8c8d;
+}
+.image{
+    width: 20%;
+
+}
+.gallery{
+    gap: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.underline{
+    text-decoration: underline;
+}
